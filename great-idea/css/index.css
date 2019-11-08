@@ -74,24 +74,32 @@ header {
 	justify-content: space-between;
 }
 
+
 nav ul {
 	display: flex;
 	flex-grow: 2;
 	justify-content: center;
 	align-items: center;
+	width: 800px;
 }
 
 nav li {
     padding: 0 5% 0 5%;
 	color: #b4b1b4;
-	
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .banner {
 	display: flex;
 	justify-content: space-evenly;
-	padding-bottom: 4%;
-    border-bottom: 3px solid #b4b1b4;
+	align-items: center;
+	border-bottom: 3px solid #b4b1b4;
+	height: 100%;
 }
 
 .banner h1 {
