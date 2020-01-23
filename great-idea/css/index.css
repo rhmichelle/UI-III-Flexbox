@@ -259,9 +259,29 @@ li {
 
 /******************** About Us *********************/
 
+.bodyOfAboutPage {
+	display: flex;
+	flex-direction: row;
+}
+
 .aboutHeaderImg {
 	width: 100%;
 	height: auto;
 	padding: 1% 0 1% 0;
 	margin: 2% 0 2% 0;
+}
+
+.aboutBannerP {
+	margin: 2rem 4rem;
+	padding: 2rem 4rem;
+}
+
+.box1 ,
+.box2 {
+	width: 25em;
+	height: 25rem;
+	margin: 2rem 6rem;
+	padding: 2rem;
+	background-color: hotpink;
+	border-radius: 6px;
 }
