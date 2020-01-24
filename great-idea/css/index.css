@@ -253,7 +253,16 @@ li {
 
 
 
+@media (max-width: 500px) {
+	.bodyOfServicesPage ,
+	.bottomOfPage {
+		flex-direction: column;
+	}
 
+	.box {
+		width: 100%;
+	}
+}
 
 
 
