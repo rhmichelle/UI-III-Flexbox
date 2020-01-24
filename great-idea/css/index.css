@@ -257,6 +257,15 @@ li {
 
 
 
+
+
+
+
+
+
+
+
+
 /******************** About Us *********************/
 
 .bodyOfAboutPage {
@@ -271,6 +280,24 @@ li {
 	margin: 2% 0 2% 0;
 }
 
+.aboutBanner {
+	background-image: url(img/about-banner);
+	position: relative;
+	display: inline-block;
+}
+
+.aboutBanner h1 {
+	font-size: 90px;
+	color: hotpink;
+	position: absolute;
+	z-index: 999;
+	display: inline-block;
+	margin: 0 auto;
+	left: 100px;
+	right: 0;
+	top: 20%;
+}
+
 .aboutBannerP {
 	margin: 2rem 4rem;
 	padding: 2rem 4rem;
@@ -279,9 +306,9 @@ li {
 .box1 ,
 .box2 {
 	width: 25em;
-	height: 25rem;
+	height: 22rem;
 	margin: 2rem 6rem;
 	padding: 2rem;
-	background-color: hotpink;
+	background-color: rgba(255,105,180);
 	border-radius: 6px;
 }
